@@ -1,3 +1,10 @@
+"""
+Calculator Application
+DONE BY ELYES
+Copyright (c) 2024-2025 ELYES
+All rights reserved.
+"""
+
 import sys
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
@@ -298,6 +305,6 @@ if __name__ == "__main__":
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
-    MainWindow.setWindowTitle("Calculator - by Elyes")
+    MainWindow.setWindowTitle("Calculator - DONE BY ELYES © 2024-2025")
     MainWindow.show()
     sys.exit(app.exec_())
